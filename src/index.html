@@ -8,9 +8,11 @@
   </head>
   <body class="body">
     <header class="header">
-      <a class="header__link">
-        <!-- <svg></svg> -->
-      </a>
+      <!-- <a class="header__link">
+        <svg class="header__link-icon" width="37" height="39" role="img">
+          <use xlink:href="img/sprite.svg#ecoloft-icon"></use>
+        </svg>
+      </a> -->
       <nav class="nav">
         <div class="header__wrapper">
           <ul class="nav__list site-list">
@@ -48,9 +50,14 @@
           <h2 class="features__title">Мы предоставляем</h2>
           <ul class="features__list">
             <li class="features__list-item">Wi-Fi</li>
-            <!-- <svg class="features__list-item__icon" width="36" height="25" role="img">
-                                <use xlink:href="source/img/sprite.svg#wifi-icon"></use>
-                            </svg> -->
+            <svg
+              class="features__list-item__icon"
+              width="36"
+              height="25"
+              role="img"
+            >
+              <use xlink:href="source/img/sprite.svg#wifi-icon"></use>
+            </svg>
             <li class="features__list-item">Трансфер</li>
             <li class="features__list-item">Завтраки</li>
             <li class="features__list-item">Прачечная</li>
@@ -109,45 +116,49 @@
     <footer class="footer">
       <div class="footer__wrapper">
         <div class="footer__logo">
-          <a class="footer__logo-link"> </a>
+          <a class="footer__logo-link">
+            <svg class="header__link-icon" width="37" height="39" role="img">
+              <use xlink:href="img/sprite.svg#ecoloft-icon"></use>
+            </svg>
+          </a>
         </div>
         <ul class="contacts">
-          <li>
-            <a href="#">О нас</a>
+          <li class="contacts__item">
+            <a class="contacts__item-link" href="#">О нас</a>
           </li>
-          <li>
-            <a href="#">Комнаты</a>
+          <li class="contacts__item">
+            <a class="contacts__item-link" href="#">Комнаты</a>
           </li>
-          <li>
-            <a href="#">Франшиза</a>
+          <li class="contacts__item">
+            <a class="contacts__item-link" href="#">Франшиза</a>
           </li>
-          <li>
-            <a href="#">Контакты</a>
+          <li class="contacts__item">
+            <a class="contacts__item-link" href="#">Контакты</a>
           </li>
         </ul>
-        <div>
-          <a href="89284743654">89284743654</a>
-        </div>
+      </div>
+      <div class="footer-social__wrapper">
+        <a href="89284743654">89284743654</a>
         <ul class="social">
           <li>
             <a href="#">
-              <!-- <svg width="15" height="22" role="img">
-                                <use xlink:href="img/sprite.svg#facebook-icon"></use>
-                            </svg> -->
+              <svg width="16" height="23" role="img">
+                <use xlink:href="img/sprite.svg#facebook-icon"></use>
+              </svg>
             </a>
           </li>
           <li>
             <a href="#">
-              <!-- <svg width="15" height="22" role="img">
-                            <use xlink:href="img/sprite.svg#pinterest-icon"></use>
-                        </svg> -->
+              <svg width="25" height="25" role="img">
+                <use xlink:href="img/sprite.svg#pinterest-icon"></use>
+              </svg>
             </a>
           </li>
           <li>
             <a href="#">
-              <!-- <svg width="15" height="22" role="img">
-                            <use xlink:href="img/sprite.svg#instagram-icon"></use>
-                        </svg> -->
+              <svg width="25" height="25" role="img">
+                <use xlink:href="img/sprite.svg#instagram-icon"></use>
+              </svg>
             </a>
           </li>
         </ul>

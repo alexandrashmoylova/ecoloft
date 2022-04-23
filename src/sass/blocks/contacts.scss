@@ -1,0 +1,13 @@
+@import '../global/variables';
+@import '../global/mixins';
+
+.contacts {
+    @include list-reset;
+    display: flex;
+}
+
+.contacts__item-link {
+    font-size: 14px;
+    line-height: 17px;
+    color: $white;
+}
