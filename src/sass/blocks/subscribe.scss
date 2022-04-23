@@ -1,0 +1,48 @@
+@import "../global/variables";
+@import "../global/mixins";
+
+.subscribe {
+  background-image: url("/img/blue-back.png"), url("/img/forest-house.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 90px 59px;
+}
+
+.subscribe__wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 358px;
+}
+
+.subscribe__title {
+  @include reset;
+  font-size: 36px;
+  line-height: 43px;
+  color: $white;
+}
+
+.subscribe__text {
+  margin: 0;
+  font-size: 12px;
+  line-height: 14px;
+  color: $grey;
+  margin-top: 23px;
+}
+
+.subscribe__button {
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    background-color: $white-d;
+    border: none;
+    padding: 21px 85px 21px 85px;
+}
+
+.subscribe__input {
+    min-width: 461px;
+    border: none;
+    padding: 22px 7px 21px 26px;
+}

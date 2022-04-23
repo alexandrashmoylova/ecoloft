@@ -1,0 +1,38 @@
+@import '../global/variables';
+@import '../global/mixins';
+
+.description {
+  padding: 150px 40px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.description__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 541px;
+}
+
+.description__title {
+  @include reset;
+    font-size: 36px;
+    line-height: 43px;
+}
+
+.description__text {
+    // margin: 0;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.description__button {
+    border: none;
+    cursor: pointer;
+    background-color: $dark-blue;
+    color: $white-d;
+    text-transform: uppercase;
+    min-width: 88px;
+    padding: 20px 80px;
+    margin-top: 20px;
+}

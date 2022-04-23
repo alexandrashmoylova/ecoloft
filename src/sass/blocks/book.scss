@@ -1,0 +1,37 @@
+@import '../global/variables';
+@import '../global/mixins';
+
+.book {
+    @include reset;
+  background-image: url("../img/mask.png"), url("../img/mountain.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: top, top center;
+  padding-bottom: 275px;
+}
+
+.book__wrapper {
+  padding-top: 184px;
+  padding-left: 61px;
+}
+
+.book__title {
+  margin: 0;
+  font-size: 55px;
+  line-height: 66px;
+  font-weight: 800;
+  color: $white;
+  margin-bottom: 35px;
+}
+
+.book__button {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 400;
+  color: $dark-blue;
+  text-transform: uppercase;
+  background-color: $white-d;
+  padding: 21px 85px;
+  border: none;
+  cursor: pointer;
+}

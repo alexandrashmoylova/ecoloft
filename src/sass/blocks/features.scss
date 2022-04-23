@@ -1,0 +1,30 @@
+@import "../global/variables";
+@import "../global/mixins";
+
+.features {
+  width: 1360px;
+  position: absolute;
+  top: 588px;
+  left: 40px;
+  background-color: $white;
+}
+
+.features__wrapper {
+  padding: 58px 46px 58px 41px;
+  display: flex;
+  align-items: center;
+}
+
+.features__title {
+  margin: 0;
+  font-size: 36px;
+  line-height: 43px;
+  margin-right: 136px;
+}
+
+.features__list {
+  @include list-reset;
+  width: 650px;
+  display: flex;
+  justify-content: space-around;
+}
