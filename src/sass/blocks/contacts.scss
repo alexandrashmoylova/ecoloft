@@ -1,21 +1,20 @@
-@import '../global/variables';
-@import '../global/mixins';
+@import "../global/variables";
+@import "../global/mixins";
 
 .contacts {
-    @include list-reset;
-    display: flex;
-    width: 730px;
-    justify-content: space-between;
-    align-items: center;
+  @include list-reset;
+  display: flex;
+  width: 730px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .contacts__item-link {
-    font-size: 14px;
-    line-height: 17px;
-    color: $white;
+  font-size: 14px;
+  line-height: 17px;
+  color: $white;
 }
 
 .contacts__item-link:hover {
-    color: $dark-blue;
-    text-decoration: underline;
+  color: $dark-blue;
 }

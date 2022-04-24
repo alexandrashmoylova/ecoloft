@@ -1,28 +1,21 @@
-@import '../global/variables';
-@import '../global/mixins'; 
+@import "../global/variables";
+@import "../global/mixins";
 
 .social {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    padding: 43px 37px 48px 0;
-}
-.social__list {
-    @include list-reset;
-    display: flex;
-    flex-wrap: wrap;
-    width: 120px;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 43px 37px 48px 0;
 }
 
 .social__link {
-    font-size: 16px;
-    line-height: 19px;
-    color: $white;
-    margin-bottom: 32px;
+  font-size: 16px;
+  line-height: 19px;
+  color: $white;
+  margin-bottom: 32px;
 }
 
 .social__link:hover {
-    color: $dark-blue;
+  color: $dark-blue;
 }

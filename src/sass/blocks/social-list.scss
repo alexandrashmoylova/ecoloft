@@ -1,12 +1,12 @@
-@import '../global/variables';
-@import '../global/mixins';
+@import "../global/variables";
+@import "../global/mixins";
 
 .social-list {
-    @include list-reset;
-    display: flex;
-    flex-wrap: wrap;
-    width: 120px;
-    justify-content: space-between;
+  @include list-reset;
+  display: flex;
+  flex-wrap: wrap;
+  width: 120px;
+  justify-content: space-between;
 }
 
 .social-list__item-link__icon {
@@ -14,5 +14,5 @@
 }
 
 .social-list__item-link__icon:hover {
-    fill: $dark-blue;
+  fill: $dark-blue;
 }

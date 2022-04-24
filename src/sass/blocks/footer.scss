@@ -1,34 +1,34 @@
-@import '../global/variables';
-@import '../global/mixins';
+@import "../global/variables";
+@import "../global/mixins";
 
 .footer {
-    background-color: $blue-back;
+  background-color: $blue-back;
 }
 
 .footer__container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .footer__wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 39px 0 88px 61px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 39px 0 88px 61px;
 }
 
 .footer__logo {
-    margin-right: 120px;
+  margin-right: 120px;
 }
 
 .footer__logo-link {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .footer__link-icon {
-    fill: $white-grey;
+  fill: $white-grey;
 }
 
 .footer__link-icon:hover {
-    fill: $dark-blue;
+  fill: $dark-blue;
 }

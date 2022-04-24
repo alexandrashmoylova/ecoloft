@@ -9,7 +9,6 @@
 .subscribe__container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   padding: 119px 60px 68px 61px;
 }
 
@@ -36,13 +35,13 @@
 }
 
 .subscribe__button {
-    font-size: 14px;
-    line-height: 17px;
-    text-transform: uppercase;
-    background-color: $white-d;
-    cursor: pointer;
-    border: none;
-    padding: 21px 85px 21px 85px;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  background-color: $white-d;
+  cursor: pointer;
+  border: none;
+  padding: 21px 85px 21px 85px;
 }
 
 .subscribe__button:hover {
@@ -50,9 +49,13 @@
   color: $white-d;
 }
 
+.subscribe__form {
+  margin-top: 35px;
+}
+
 .subscribe__input {
-    min-width: 427px;
-    border: none;
-    padding: 22px 7px 21px 26px;
-    outline: none;
+  min-width: 427px;
+  border: none;
+  padding: 22px 7px 21px 26px;
+  outline: none;
 }

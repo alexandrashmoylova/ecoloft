@@ -1,4 +1,4 @@
-@import '../global/mixins';
+@import "../global/mixins";
 
 .site-list {
   @include list-reset;
@@ -20,5 +20,4 @@
 
 .site-list__item-link:hover {
   color: $blue;
-  text-decoration: underline;
 }
