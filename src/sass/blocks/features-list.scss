@@ -1,0 +1,24 @@
+@import "../global/variables";
+@import "../global/mixins";
+
+.features-list {
+  @include list-reset;
+  width: 650px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.features-list__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.features-list__item-title {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  margin: 0;
+  order: 2;
+  margin-top: 19px;
+}

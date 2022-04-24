@@ -8,13 +8,17 @@
   </head>
   <body class="body">
     <header class="header">
-      <!-- <a class="header__link">
-        <svg class="header__link-icon" width="37" height="39" role="img">
-          <use xlink:href="img/sprite.svg#ecoloft-icon"></use>
-        </svg>
-      </a> -->
+      <div class="header__wrapper">
+        <div class="header__wrapper-logo">
+          <a class="header__link">
+            <svg class="header__link-icon" width="37" height="39" role="img">
+              <use xlink:href="img/sprite.svg#ecoloft-icon"></use>
+            </svg>
+          </a>
+        </div>
+    
       <nav class="nav">
-        <div class="header__wrapper">
+        <div class="nav__wrapper">
           <ul class="nav__list site-list">
             <li class="site-list__item">
               <a class="site-list__item-link">О нас</a>
@@ -34,6 +38,7 @@
           </div>
         </div>
       </nav>
+    </div>
     </header>
     <main>
       <section class="book">
@@ -48,23 +53,28 @@
       <section class="features">
         <div class="features__wrapper">
           <h2 class="features__title">Мы предоставляем</h2>
-          <ul class="features__list">
-            <li class="features__list-item">Wi-Fi</li>
-            <svg
-              class="features__list-item__icon"
-              width="36"
-              height="25"
-              role="img"
-            >
-              <use xlink:href="source/img/sprite.svg#wifi-icon"></use>
-            </svg>
-            <li class="features__list-item">Трансфер</li>
-            <li class="features__list-item">Завтраки</li>
-            <li class="features__list-item">Прачечная</li>
+          <ul class="features-list">
+            <li class="features-list__item">
+              <h3 class="features-list__item-title">Wi-Fi</h3>
+              <img src="img/svg/wifi.svg" width="35" height="25" alt="Иконка wi-fi">
+            </li>
+            <li class="features-list__item">
+              <h3 class="features-list__item-title">Трансфер</h3>
+              <img src="img/svg/transfer.svg" width="29" height="25" alt="Иконка машины">
+            </li>
+            <li class="features-list__item">
+              <h3 class="features-list__item-title">Завтраки</h3>
+              <img src="img/svg/breakfast.svg" width="29" height="29" alt="Иконка еды">
+            </li>
+            <li class="features-list__item">
+              <h3 class="features-list__item-title">Прачечная</h3>
+              <img src="img/svg/laundry.svg" width="25" height="32" alt="Иконка прачечной">
+            </li>
           </ul>
         </div>
       </section>
       <section class="description">
+        <div class="description__container">
         <div class="description__wrapper">
           <h2 class="description__title">О нас</h2>
           <p class="description__text">
@@ -97,6 +107,7 @@
             alt="Изображение дома"
           />
         </div>
+      </div>
       </section>
       <section class="subscribe">
         <div class="subscribe__wrapper">
@@ -114,10 +125,11 @@
       </section>
     </main>
     <footer class="footer">
+      <div class="footer__container">
       <div class="footer__wrapper">
         <div class="footer__logo">
           <a class="footer__logo-link">
-            <svg class="header__link-icon" width="37" height="39" role="img">
+            <svg class="footer__link-icon" width="37" height="39" role="img">
               <use xlink:href="img/sprite.svg#ecoloft-icon"></use>
             </svg>
           </a>
@@ -137,9 +149,9 @@
           </li>
         </ul>
       </div>
-      <div class="footer-social__wrapper">
-        <a href="89284743654">89284743654</a>
-        <ul class="social">
+      <div class="social">
+        <a class="social__link" href="89284743654">89284743654</a>
+        <ul class="social__list">
           <li>
             <a href="#">
               <svg width="16" height="23" role="img">
@@ -163,6 +175,7 @@
           </li>
         </ul>
       </div>
+    </div>
     </footer>
     <script src="index.bundle.js"></script>
   </body>

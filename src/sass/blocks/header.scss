@@ -4,10 +4,14 @@
 .header {
   @include reset;
   position: absolute;
+  width: 100%;
 }
 
 .header__wrapper {
   display: flex;
   justify-content: space-between;
-  padding: 30px 40px;
+}
+
+.header__wrapper-logo {
+  padding: 31px 0 0 70px;
 }

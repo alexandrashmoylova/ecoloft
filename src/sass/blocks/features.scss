@@ -19,12 +19,6 @@
   margin: 0;
   font-size: 36px;
   line-height: 43px;
+  font-weight: 400;
   margin-right: 136px;
-}
-
-.features__list {
-  @include list-reset;
-  width: 650px;
-  display: flex;
-  justify-content: space-around;
 }

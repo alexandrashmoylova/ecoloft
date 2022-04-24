@@ -4,10 +4,15 @@
 .nav {
   background-color: $white-grey;
   width: 1075px;
-  margin-left: 365px;
 }
 
 .nav__tel {
   color: $blue;
   cursor: pointer;
+}
+
+.nav__wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 40px;
 }

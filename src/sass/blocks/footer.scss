@@ -2,10 +2,25 @@
 @import '../global/mixins';
 
 .footer {
-    display: flex;
     background-color: $blue-back;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 47px 48px 48px 61px;
 }
 
 .footer__wrapper {
     display: flex;
+    flex-wrap: wrap;
+}
+
+.footer__logo {
+    margin-right: 120px;
+}
+
+.footer__logo-link {
+    cursor: pointer;
 }
