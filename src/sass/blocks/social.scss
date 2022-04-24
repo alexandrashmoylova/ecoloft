@@ -4,7 +4,9 @@
 .social {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
+    padding: 43px 37px 48px 0;
 }
 .social__list {
     @include list-reset;

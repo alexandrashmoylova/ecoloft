@@ -5,10 +5,12 @@
   background-image: url("/img/blue-back.png"), url("/img/forest-house.png");
   background-repeat: no-repeat;
   background-size: cover;
+}
+.subscribe__container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 90px 59px;
+  padding: 119px 60px 68px 61px;
 }
 
 .subscribe__wrapper {
@@ -21,6 +23,7 @@
   @include reset;
   font-size: 36px;
   line-height: 43px;
+  font-weight: 400;
   color: $white;
 }
 
@@ -29,7 +32,7 @@
   font-size: 12px;
   line-height: 14px;
   color: $grey;
-  margin-top: 23px;
+  margin-top: 26px;
 }
 
 .subscribe__button {
@@ -43,7 +46,7 @@
 }
 
 .subscribe__input {
-    min-width: 461px;
+    min-width: 427px;
     border: none;
     padding: 22px 7px 21px 26px;
 }

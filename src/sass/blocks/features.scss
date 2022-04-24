@@ -10,9 +10,11 @@
 }
 
 .features__wrapper {
-  padding: 58px 46px 58px 41px;
+  padding: 41px 134px 46px 44px;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
+  justify-content: space-between;
 }
 
 .features__title {
@@ -20,5 +22,4 @@
   font-size: 36px;
   line-height: 43px;
   font-weight: 400;
-  margin-right: 136px;
 }
