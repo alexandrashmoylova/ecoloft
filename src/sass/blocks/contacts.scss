@@ -14,3 +14,8 @@
     line-height: 17px;
     color: $white;
 }
+
+.contacts__item-link:hover {
+    color: $dark-blue;
+    text-decoration: underline;
+}

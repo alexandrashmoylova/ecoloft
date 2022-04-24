@@ -36,3 +36,8 @@
   border: none;
   cursor: pointer;
 }
+
+.book__button:hover {
+  background-color: $dark-blue;
+  color: $white-d;
+}

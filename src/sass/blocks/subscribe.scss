@@ -45,6 +45,11 @@
     padding: 21px 85px 21px 85px;
 }
 
+.subscribe__button:hover {
+  background-color: $dark-blue;
+  color: $white-d;
+}
+
 .subscribe__input {
     min-width: 427px;
     border: none;

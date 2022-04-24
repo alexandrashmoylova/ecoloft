@@ -1,0 +1,18 @@
+@import '../global/variables';
+@import '../global/mixins';
+
+.social-list {
+    @include list-reset;
+    display: flex;
+    flex-wrap: wrap;
+    width: 120px;
+    justify-content: space-between;
+}
+
+.social-list__item-link__icon {
+  fill: $white;
+}
+
+.social-list__item-link__icon:hover {
+    fill: $dark-blue;
+}
