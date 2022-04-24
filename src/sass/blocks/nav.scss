@@ -14,6 +14,10 @@
   cursor: pointer;
 }
 
+.nav__tel-link:hover {
+  color: $dark-blue;
+}
+
 .nav__wrapper {
   display: flex;
   justify-content: space-between;

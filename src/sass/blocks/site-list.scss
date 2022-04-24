@@ -12,5 +12,13 @@
 }
 
 .site-list__item-link {
+  font-size: 14px;
+  line-height: 17px;
+  color: $dark-blue;
   cursor: pointer;
+}
+
+.site-list__item-link:hover {
+  color: $blue;
+  text-decoration: underline;
 }

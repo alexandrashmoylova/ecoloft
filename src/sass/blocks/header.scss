@@ -14,6 +14,18 @@
   justify-content: space-between;
 }
 
+.header__link {
+  cursor: pointer;
+}
+
+.header__link-icon {
+  fill: $white-grey;
+}
+
+.header__link-icon:hover {
+  fill: $dark-blue;
+}
+
 .header__wrapper-logo {
   padding: 31px 0 0 70px;
 }

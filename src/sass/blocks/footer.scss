@@ -24,3 +24,11 @@
 .footer__logo-link {
     cursor: pointer;
 }
+
+.footer__link-icon {
+    fill: $white-grey;
+}
+
+.footer__link-icon:hover {
+    fill: $dark-blue;
+}
