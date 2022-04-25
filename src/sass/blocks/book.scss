@@ -1,9 +1,9 @@
-@import "../global/variables";
-@import "../global/mixins";
+@import '../global/variables';
+@import '../global/mixins';
 
 .book {
-  @include reset;
-  background-image: url("../img/mask.png"), url("../img/mountain.jpg");
+    @include reset;
+  background-image: url("/src/img/mask.png"), url("/src/img/mountain.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: top, top center;
