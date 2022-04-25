@@ -39,6 +39,39 @@
   align-items: center;
 }
 
+.features-list__item-img {
+  
+  //background-position: center;
+  background-size: cover;
+  
+
+  
+}
+
+.wifi-icon {
+  background-image: url("/src/img/svg/wifi.svg");
+  width: 35px;
+  height: 25px;
+}
+.transfer-icon {
+  background-image: url("/src/img/svg/transfer.svg");
+  width: 29px;
+  height: 25px;
+}
+.breakfast-icon {
+  background-image: url("/src/img/svg/breakfast.svg");
+  width: 29px;
+  height: 29px;
+}
+.laundry-icon {
+  background-image: url("/src/img/svg/laundry.svg");
+  width: 25px;
+  height: 32px;
+}
+
+
+
+
 .features-list__item-title {
   font-size: 18px;
   line-height: 22px;

@@ -18,6 +18,13 @@
   width: 541px;
 }
 
+.description__wrapper-img {
+  background-image: url("/src/img/white-house.png");
+  background-size: cover;
+  width: 677px;
+  height: 625px;
+}
+
 .description__title {
   @include reset;
   font-size: 36px;
