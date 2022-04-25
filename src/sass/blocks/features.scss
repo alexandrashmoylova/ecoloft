@@ -2,10 +2,11 @@
 @import "../global/mixins";
 
 .features {
-  width: 1360px;
+  width: 94.5%;
   position: absolute;
-  top: 588px;
-  left: 40px;
+  bottom: -9%;
+  left: 50%;
+  transform: translateX(-50%);
   background-color: $white;
 }
 
@@ -22,4 +23,27 @@
   font-size: 36px;
   line-height: 43px;
   font-weight: 400;
+}
+
+
+.features-list {
+  @include list-reset;
+  width: 713px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.features-list__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.features-list__item-title {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  margin: 0;
+  order: 2;
+  margin-top: 19px;
 }
